@@ -7,24 +7,24 @@ environment {
 stages { 
 stage('Clean stage') {
 steps {
-dir("Shashikant007/product-app-aws") {
-bat 'C:\apache-maven-3.9.11-bin\apache-maven-3.9.11\bin\mvn clean'
+dir("product-app-aws") {
+bat 'C:/apache-maven-3.9.11-bin/apache-maven-3.9.11/bin/mvn clean'
 }
 }
 }
  
 stage('Compile stage') {
 steps {
-dir("Shashikant007/product-app-aws") {
-bat 'C:\apache-maven-3.9.11-bin\apache-maven-3.9.11\bin\mvn compile'
+dir("product-app-aws") {
+bat 'C:/apache-maven-3.9.11-bin/apache-maven-3.9.11/bin/mvn compile'
 }
 }
 }
  
 stage('Install stage') {
 steps {
-dir("Shashikant007/product-app-aws") {
-bat 'C:\apache-maven-3.9.11-bin\apache-maven-3.9.11\bin\mvn install'
+dir("product-app-aws") {
+bat 'C:/apache-maven-3.9.11-bin/apache-maven-3.9.11/bin/mvn install'
 }
 }
 }
