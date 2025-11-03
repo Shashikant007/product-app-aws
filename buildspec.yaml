@@ -35,4 +35,4 @@ phases:
 artifacts:
   files:
     - imagedefinitions.json
-    - target/contact-springboot-app-0.0.1-SNAPSHOT.jar
+    - target/ProductAppAWS-0.0.1-SNAPSHOT.jar
